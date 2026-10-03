@@ -1,0 +1,39 @@
+name: Bug report
+description: Something does not work as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Never paste Tempo/Jira tokens or confidential worklog content.**
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include the exact command you ran (redact account ids if needed).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output
+      description: The JSON error printed on stderr, and the output of `tempo --debug ...` if relevant.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: tempo version
+      placeholder: "tempo --version"
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: OS and Python version
+      placeholder: "Ubuntu 24.04, Python 3.12"

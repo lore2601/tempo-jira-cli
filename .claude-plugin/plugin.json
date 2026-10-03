@@ -1,0 +1,12 @@
+{
+  "name": "tempo",
+  "description": "Teach Claude Code to log and review Tempo Timesheets hours safely with the tempo CLI.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lorenzo Magnanelli"
+  },
+  "homepage": "https://github.com/lore2601/tempo-jira-cli",
+  "repository": "https://github.com/lore2601/tempo-jira-cli",
+  "license": "Apache-2.0",
+  "keywords": ["tempo", "jira", "timesheets", "worklog", "skills"]
+}

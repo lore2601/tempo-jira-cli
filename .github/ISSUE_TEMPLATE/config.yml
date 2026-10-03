@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/lore2601/tempo-jira-cli/security/advisories/new
+    about: Please report security issues privately.
+  - name: Tempo REST API documentation
+    url: https://apidocs.tempo.io/
+    about: Questions about the Tempo API itself.

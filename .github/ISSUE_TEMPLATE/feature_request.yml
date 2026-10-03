@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest a new command or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you (or your agent) trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed command / behaviour
+      description: Example invocation and expected JSON output.
+  - type: textarea
+    id: api
+    attributes:
+      label: Tempo / Jira API endpoint(s)
+      description: Link to the relevant endpoint on apidocs.tempo.io, if known.
