@@ -1,6 +1,7 @@
 # tempo: Tempo Timesheets from the command line
 
 [![CI](https://github.com/lore2601/tempo-jira-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/lore2601/tempo-jira-cli/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/tempo-jira-cli?label=PyPI&cacheSeconds=3600)](https://pypi.org/project/tempo-jira-cli/)
 [![CodeQL](https://github.com/lore2601/tempo-jira-cli/actions/workflows/codeql.yml/badge.svg)](https://github.com/lore2601/tempo-jira-cli/actions/workflows/codeql.yml)
 [![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)](pyproject.toml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
