@@ -69,7 +69,7 @@ jobs:
             uv run coverage report --skip-covered
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: matrix.os == 'ubuntu-latest' && matrix.python == '3.13'
         with:
           name: coverage-xml
@@ -97,7 +97,7 @@ jobs:
           /tmp/smoke/bin/tempo --version
           /tmp/smoke/bin/tempo schema > /dev/null
           TEMPO_API_TOKEN=x TEMPO_ACCOUNT_ID=smoke-test-account /tmp/smoke/bin/tempo config show
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: dist
           path: dist/
